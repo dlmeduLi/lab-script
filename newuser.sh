@@ -33,6 +33,7 @@ newuser(){
 	fi
 	
 	useradd -u ${uid} -g ${gid} ${user}
+	chage -d 0 ${user}
 	echo ${user}"123" | passwd --stdin ${user}
 	if [ -d "/home/${user}" ];then
 		chmod g+x /home/${user}
