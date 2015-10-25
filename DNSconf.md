@@ -24,20 +24,20 @@
 ## 使用主机名访问服务器的方法
 * 1 修改**hosts**文件
 将下列信息添加到hosts文件，**Linux**系统hosts文件在/etc/hosts，**Windows**系统hosts在C:\Windows\System32\drivers\etc\hosts
->210.47.246.4				scws 	scws.lilab.com
-210.47.246.5				scnas	scnas.lilab.com
-210.47.246.6				ws01 	ws01.lilab.com 
-210.47.246.7				ws02 	ws02.lilab.com 
-210.47.246.8				ws03 	ws03.lilab.com 
-210.47.246.9				ws04 	ws04.lilab.com 
-210.47.246.10				ws05 	ws05.lilab.com 
-210.47.246.11				ws06 	ws06.lilab.com 
+>210.47.246.4				scws 	scws.lilab.com   
+210.47.246.5				scnas	scnas.lilab.com  
+210.47.246.6				ws01 	ws01.lilab.com  
+210.47.246.7				ws02 	ws02.lilab.com   
+210.47.246.8				ws03 	ws03.lilab.com   
+210.47.246.9				ws04 	ws04.lilab.com   
+210.47.246.10				ws05 	ws05.lilab.com   
+210.47.246.11				ws06 	ws06.lilab.com   
 210.47.246.12				GB   	GB.lilab.com   
 210.47.246.13				BK   	BK.lilab.com   
 210.47.246.14				CJ   	CJ.lilab.com   
 210.47.246.15				FS   	FS.lilab.com   
 210.47.246.16				LY   	LY.lilab.com   
-210.47.246.17				Share	Share.lilab.com
+210.47.246.17				Share	Share.lilab.com  
 210.47.246.18				XL   	XL.lilab.com   
 
 * 2 使用实验室搭建的**DNS服务器**
